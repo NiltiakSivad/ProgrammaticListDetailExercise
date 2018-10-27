@@ -19,6 +19,11 @@
 		D3C856312184A10600B13252 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D3C856302184A10600B13252 /* .gitignore */; };
 		D3C856332184A11500B13252 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D3C856322184A11500B13252 /* .swiftlint.yml */; };
 		D3C856352184A12300B13252 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D3C856342184A12300B13252 /* README.md */; };
+		D3C8563E2184A37600B13252 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8563D2184A37600B13252 /* BaseService.swift */; };
+		D3C856402184A39700B13252 /* OffersEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8563F2184A39700B13252 /* OffersEndpoint.swift */; };
+		D3C856422184A3C300B13252 /* OffersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856412184A3C300B13252 /* OffersRepository.swift */; };
+		D3C856442184A3CA00B13252 /* OffersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856432184A3CA00B13252 /* OffersService.swift */; };
+		D3C856482184A46B00B13252 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856472184A46B00B13252 /* Offer.swift */; };
 		E5D826FE5A9EBBBAA31D292C /* Pods_ProgrammaticListDetailExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E5F9666F4904E2D04A774C /* Pods_ProgrammaticListDetailExercise.framework */; };
 		F7BA1EB80992B9A148A2AFEB /* Pods_ProgrammaticListDetailExerciseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8FE457836B5773A972D074 /* Pods_ProgrammaticListDetailExerciseUITests.framework */; };
 /* End PBXBuildFile section */
@@ -67,6 +72,11 @@
 		D3C856302184A10600B13252 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D3C856322184A11500B13252 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		D3C856342184A12300B13252 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D3C8563D2184A37600B13252 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		D3C8563F2184A39700B13252 /* OffersEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersEndpoint.swift; sourceTree = "<group>"; };
+		D3C856412184A3C300B13252 /* OffersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersRepository.swift; sourceTree = "<group>"; };
+		D3C856432184A3CA00B13252 /* OffersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersService.swift; sourceTree = "<group>"; };
+		D3C856472184A46B00B13252 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +159,7 @@
 		D3C855FF2184A05C00B13252 /* ProgrammaticListDetailExercise */ = {
 			isa = PBXGroup;
 			children = (
+				D3C856392184A34200B13252 /* Data */,
 				D3C856372184A2B900B13252 /* Resources */,
 				D3C856362184A27500B13252 /* SupportingFiles */,
 				D3C856382184A2C700B13252 /* UI */,
@@ -199,6 +210,58 @@
 				D3C856022184A05C00B13252 /* ViewController.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		D3C856392184A34200B13252 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8563A2184A34B00B13252 /* Models */,
+				D3C8563B2184A35D00B13252 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D3C8563A2184A34B00B13252 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3C856472184A46B00B13252 /* Offer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3C8563B2184A35D00B13252 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8563C2184A36800B13252 /* Shared */,
+				D3C856462184A3D600B13252 /* Repositories */,
+				D3C856452184A3D100B13252 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D3C8563C2184A36800B13252 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8563D2184A37600B13252 /* BaseService.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D3C856452184A3D100B13252 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8563F2184A39700B13252 /* OffersEndpoint.swift */,
+				D3C856432184A3CA00B13252 /* OffersService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D3C856462184A3D600B13252 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				D3C856412184A3C300B13252 /* OffersRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,8 +484,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C856482184A46B00B13252 /* Offer.swift in Sources */,
 				D3C856032184A05C00B13252 /* ViewController.swift in Sources */,
+				D3C856402184A39700B13252 /* OffersEndpoint.swift in Sources */,
+				D3C856422184A3C300B13252 /* OffersRepository.swift in Sources */,
 				D3C856012184A05C00B13252 /* AppDelegate.swift in Sources */,
+				D3C856442184A3CA00B13252 /* OffersService.swift in Sources */,
+				D3C8563E2184A37600B13252 /* BaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

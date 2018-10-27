@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		CF15288152B4CFECF24F8639 /* Pods_ProgrammaticListDetailExerciseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638C56186DF313D4A3E7CCE8 /* Pods_ProgrammaticListDetailExerciseTests.framework */; };
 		D3C856012184A05C00B13252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856002184A05C00B13252 /* AppDelegate.swift */; };
-		D3C856032184A05C00B13252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856022184A05C00B13252 /* ViewController.swift */; };
-		D3C856062184A05C00B13252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C856042184A05C00B13252 /* Main.storyboard */; };
 		D3C856082184A05E00B13252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C856072184A05E00B13252 /* Assets.xcassets */; };
 		D3C8560B2184A05E00B13252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C856092184A05E00B13252 /* LaunchScreen.storyboard */; };
 		D3C856162184A05E00B13252 /* ProgrammaticListDetailExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856152184A05E00B13252 /* ProgrammaticListDetailExerciseTests.swift */; };
@@ -24,6 +22,9 @@
 		D3C856422184A3C300B13252 /* OffersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856412184A3C300B13252 /* OffersRepository.swift */; };
 		D3C856442184A3CA00B13252 /* OffersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856432184A3CA00B13252 /* OffersService.swift */; };
 		D3C856482184A46B00B13252 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856472184A46B00B13252 /* Offer.swift */; };
+		D3C8564B2184A5BE00B13252 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8564A2184A5BE00B13252 /* AppCoordinator.swift */; };
+		D3C8564D2184A60900B13252 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8564C2184A60900B13252 /* Coordinator.swift */; };
+		D3C856502184A73700B13252 /* OffersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8564F2184A73700B13252 /* OffersListViewController.swift */; };
 		E5D826FE5A9EBBBAA31D292C /* Pods_ProgrammaticListDetailExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E5F9666F4904E2D04A774C /* Pods_ProgrammaticListDetailExercise.framework */; };
 		F7BA1EB80992B9A148A2AFEB /* Pods_ProgrammaticListDetailExerciseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8FE457836B5773A972D074 /* Pods_ProgrammaticListDetailExerciseUITests.framework */; };
 /* End PBXBuildFile section */
@@ -57,8 +58,6 @@
 		D2E5F9666F4904E2D04A774C /* Pods_ProgrammaticListDetailExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgrammaticListDetailExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C855FD2184A05C00B13252 /* ProgrammaticListDetailExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticListDetailExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C856002184A05C00B13252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3C856022184A05C00B13252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D3C856052184A05C00B13252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3C856072184A05E00B13252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3C8560A2184A05E00B13252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3C8560C2184A05E00B13252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +76,9 @@
 		D3C856412184A3C300B13252 /* OffersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersRepository.swift; sourceTree = "<group>"; };
 		D3C856432184A3CA00B13252 /* OffersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersService.swift; sourceTree = "<group>"; };
 		D3C856472184A46B00B13252 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		D3C8564A2184A5BE00B13252 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D3C8564C2184A60900B13252 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D3C8564F2184A73700B13252 /* OffersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,8 +208,8 @@
 		D3C856382184A2C700B13252 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				D3C856042184A05C00B13252 /* Main.storyboard */,
-				D3C856022184A05C00B13252 /* ViewController.swift */,
+				D3C856492184A5AD00B13252 /* Coordinators */,
+				D3C8564E2184A72700B13252 /* Offers */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -262,6 +264,23 @@
 				D3C856412184A3C300B13252 /* OffersRepository.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		D3C856492184A5AD00B13252 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8564A2184A5BE00B13252 /* AppCoordinator.swift */,
+				D3C8564C2184A60900B13252 /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D3C8564E2184A72700B13252 /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8564F2184A73700B13252 /* OffersListViewController.swift */,
+			);
+			path = Offers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,7 +397,6 @@
 				D3C856352184A12300B13252 /* README.md in Resources */,
 				D3C856082184A05E00B13252 /* Assets.xcassets in Resources */,
 				D3C8562F2184A0F700B13252 /* Podfile in Resources */,
-				D3C856062184A05C00B13252 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,12 +503,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3C856482184A46B00B13252 /* Offer.swift in Sources */,
-				D3C856032184A05C00B13252 /* ViewController.swift in Sources */,
 				D3C856402184A39700B13252 /* OffersEndpoint.swift in Sources */,
 				D3C856422184A3C300B13252 /* OffersRepository.swift in Sources */,
+				D3C8564B2184A5BE00B13252 /* AppCoordinator.swift in Sources */,
 				D3C856012184A05C00B13252 /* AppDelegate.swift in Sources */,
 				D3C856442184A3CA00B13252 /* OffersService.swift in Sources */,
+				D3C856502184A73700B13252 /* OffersListViewController.swift in Sources */,
 				D3C8563E2184A37600B13252 /* BaseService.swift in Sources */,
+				D3C8564D2184A60900B13252 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,14 +546,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D3C856042184A05C00B13252 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3C856052184A05C00B13252 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D3C856092184A05E00B13252 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -676,7 +688,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kaitlin-davis.ProgrammaticListDetailExercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -695,7 +707,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kaitlin-davis.ProgrammaticListDetailExercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

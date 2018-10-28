@@ -11,8 +11,7 @@
 		D3C856012184A05C00B13252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856002184A05C00B13252 /* AppDelegate.swift */; };
 		D3C856082184A05E00B13252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C856072184A05E00B13252 /* Assets.xcassets */; };
 		D3C8560B2184A05E00B13252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C856092184A05E00B13252 /* LaunchScreen.storyboard */; };
-		D3C856162184A05E00B13252 /* ProgrammaticListDetailExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856152184A05E00B13252 /* ProgrammaticListDetailExerciseTests.swift */; };
-		D3C856212184A05E00B13252 /* ProgrammaticListDetailExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856202184A05E00B13252 /* ProgrammaticListDetailExerciseUITests.swift */; };
+		D3C856212184A05E00B13252 /* OfferListDetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856202184A05E00B13252 /* OfferListDetailUITests.swift */; };
 		D3C8562F2184A0F700B13252 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D3C8562E2184A0F700B13252 /* Podfile */; };
 		D3C856312184A10600B13252 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D3C856302184A10600B13252 /* .gitignore */; };
 		D3C856332184A11500B13252 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = D3C856322184A11500B13252 /* .swiftlint.yml */; };
@@ -24,7 +23,23 @@
 		D3C856482184A46B00B13252 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856472184A46B00B13252 /* Offer.swift */; };
 		D3C8564B2184A5BE00B13252 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8564A2184A5BE00B13252 /* AppCoordinator.swift */; };
 		D3C8564D2184A60900B13252 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8564C2184A60900B13252 /* Coordinator.swift */; };
-		D3C856502184A73700B13252 /* OffersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8564F2184A73700B13252 /* OffersListViewController.swift */; };
+		D3C856502184A73700B13252 /* OfferListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8564F2184A73700B13252 /* OfferListViewController.swift */; };
+		D3C8565221851EA600B13252 /* OfferListViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8565121851EA600B13252 /* OfferListViewable.swift */; };
+		D3C8565421851ECF00B13252 /* OfferListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8565321851ECF00B13252 /* OfferListPresenter.swift */; };
+		D3C8565621851F7C00B13252 /* OfferListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8565521851F7C00B13252 /* OfferListViewModel.swift */; };
+		D3C8565821851F8800B13252 /* OfferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8565721851F8800B13252 /* OfferViewModel.swift */; };
+		D3C8565A218526E600B13252 /* OfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C85659218526E600B13252 /* OfferCollectionViewCell.swift */; };
+		D3C8565E21852A5000B13252 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8565D21852A5000B13252 /* AsyncImageView.swift */; };
+		D3C8566021852FAC00B13252 /* OfferStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8565F21852FAC00B13252 /* OfferStyle.swift */; };
+		D3C85662218531F600B13252 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C85661218531F600B13252 /* Colors.xcassets */; };
+		D3C856642185325400B13252 /* ApplicationColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856632185325400B13252 /* ApplicationColor.swift */; };
+		D3C8566721854AF400B13252 /* UserDefaultsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8566621854AF400B13252 /* UserDefaultsRepository.swift */; };
+		D3C8566D21854CC400B13252 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8566C21854CC400B13252 /* ToggleButton.swift */; };
+		D3C85670218550FA00B13252 /* OfferDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8566F218550FA00B13252 /* OfferDetailViewController.swift */; };
+		D3C856722185519E00B13252 /* OfferListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856712185519E00B13252 /* OfferListCoordinator.swift */; };
+		D3C8567621855C2800B13252 /* ApplicationFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8567521855C2800B13252 /* ApplicationFont.swift */; };
+		D3C856792185F0D200B13252 /* XCUIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C856782185F0D200B13252 /* XCUIApplicationExtensions.swift */; };
+		D3C8567B2186036300B13252 /* OfferListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C8567A2186036300B13252 /* OfferListViewModelTests.swift */; };
 		E5D826FE5A9EBBBAA31D292C /* Pods_ProgrammaticListDetailExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E5F9666F4904E2D04A774C /* Pods_ProgrammaticListDetailExercise.framework */; };
 		F7BA1EB80992B9A148A2AFEB /* Pods_ProgrammaticListDetailExerciseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8FE457836B5773A972D074 /* Pods_ProgrammaticListDetailExerciseUITests.framework */; };
 /* End PBXBuildFile section */
@@ -62,12 +77,11 @@
 		D3C8560A2184A05E00B13252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3C8560C2184A05E00B13252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3C856112184A05E00B13252 /* ProgrammaticListDetailExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammaticListDetailExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3C856152184A05E00B13252 /* ProgrammaticListDetailExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticListDetailExerciseTests.swift; sourceTree = "<group>"; };
 		D3C856172184A05E00B13252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3C8561C2184A05E00B13252 /* ProgrammaticListDetailExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammaticListDetailExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3C856202184A05E00B13252 /* ProgrammaticListDetailExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticListDetailExerciseUITests.swift; sourceTree = "<group>"; };
+		D3C856202184A05E00B13252 /* OfferListDetailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferListDetailUITests.swift; sourceTree = "<group>"; };
 		D3C856222184A05E00B13252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3C8562E2184A0F700B13252 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D3C8562E2184A0F700B13252 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3C856302184A10600B13252 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D3C856322184A11500B13252 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		D3C856342184A12300B13252 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -78,7 +92,23 @@
 		D3C856472184A46B00B13252 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 		D3C8564A2184A5BE00B13252 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		D3C8564C2184A60900B13252 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		D3C8564F2184A73700B13252 /* OffersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersListViewController.swift; sourceTree = "<group>"; };
+		D3C8564F2184A73700B13252 /* OfferListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferListViewController.swift; sourceTree = "<group>"; };
+		D3C8565121851EA600B13252 /* OfferListViewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferListViewable.swift; sourceTree = "<group>"; };
+		D3C8565321851ECF00B13252 /* OfferListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferListPresenter.swift; sourceTree = "<group>"; };
+		D3C8565521851F7C00B13252 /* OfferListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferListViewModel.swift; sourceTree = "<group>"; };
+		D3C8565721851F8800B13252 /* OfferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewModel.swift; sourceTree = "<group>"; };
+		D3C85659218526E600B13252 /* OfferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionViewCell.swift; sourceTree = "<group>"; };
+		D3C8565D21852A5000B13252 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		D3C8565F21852FAC00B13252 /* OfferStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferStyle.swift; sourceTree = "<group>"; };
+		D3C85661218531F600B13252 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		D3C856632185325400B13252 /* ApplicationColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationColor.swift; sourceTree = "<group>"; };
+		D3C8566621854AF400B13252 /* UserDefaultsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsRepository.swift; sourceTree = "<group>"; };
+		D3C8566C21854CC400B13252 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		D3C8566F218550FA00B13252 /* OfferDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailViewController.swift; sourceTree = "<group>"; };
+		D3C856712185519E00B13252 /* OfferListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferListCoordinator.swift; sourceTree = "<group>"; };
+		D3C8567521855C2800B13252 /* ApplicationFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFont.swift; sourceTree = "<group>"; };
+		D3C856782185F0D200B13252 /* XCUIApplicationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIApplicationExtensions.swift; sourceTree = "<group>"; };
+		D3C8567A2186036300B13252 /* OfferListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferListViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,8 +202,8 @@
 		D3C856142184A05E00B13252 /* ProgrammaticListDetailExerciseTests */ = {
 			isa = PBXGroup;
 			children = (
-				D3C856152184A05E00B13252 /* ProgrammaticListDetailExerciseTests.swift */,
 				D3C856172184A05E00B13252 /* Info.plist */,
+				D3C8567A2186036300B13252 /* OfferListViewModelTests.swift */,
 			);
 			path = ProgrammaticListDetailExerciseTests;
 			sourceTree = "<group>";
@@ -181,8 +211,9 @@
 		D3C8561F2184A05E00B13252 /* ProgrammaticListDetailExerciseUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D3C856202184A05E00B13252 /* ProgrammaticListDetailExerciseUITests.swift */,
 				D3C856222184A05E00B13252 /* Info.plist */,
+				D3C856202184A05E00B13252 /* OfferListDetailUITests.swift */,
+				D3C856782185F0D200B13252 /* XCUIApplicationExtensions.swift */,
 			);
 			path = ProgrammaticListDetailExerciseUITests;
 			sourceTree = "<group>";
@@ -191,6 +222,8 @@
 			isa = PBXGroup;
 			children = (
 				D3C856002184A05C00B13252 /* AppDelegate.swift */,
+				D3C8564A2184A5BE00B13252 /* AppCoordinator.swift */,
+				D3C8564C2184A60900B13252 /* Coordinator.swift */,
 				D3C8560C2184A05E00B13252 /* Info.plist */,
 				D3C856092184A05E00B13252 /* LaunchScreen.storyboard */,
 			);
@@ -201,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				D3C856072184A05E00B13252 /* Assets.xcassets */,
+				D3C85661218531F600B13252 /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -208,8 +242,9 @@
 		D3C856382184A2C700B13252 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				D3C856492184A5AD00B13252 /* Coordinators */,
+				D3C8566B21854CB900B13252 /* Components */,
 				D3C8564E2184A72700B13252 /* Offers */,
+				D3C8565C21852A4300B13252 /* Utils */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -235,8 +270,8 @@
 			isa = PBXGroup;
 			children = (
 				D3C8563C2184A36800B13252 /* Shared */,
-				D3C856462184A3D600B13252 /* Repositories */,
 				D3C856452184A3D100B13252 /* Services */,
+				D3C856462184A3D600B13252 /* Repositories */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -262,25 +297,59 @@
 			isa = PBXGroup;
 			children = (
 				D3C856412184A3C300B13252 /* OffersRepository.swift */,
+				D3C8566621854AF400B13252 /* UserDefaultsRepository.swift */,
 			);
 			path = Repositories;
-			sourceTree = "<group>";
-		};
-		D3C856492184A5AD00B13252 /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-				D3C8564A2184A5BE00B13252 /* AppCoordinator.swift */,
-				D3C8564C2184A60900B13252 /* Coordinator.swift */,
-			);
-			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		D3C8564E2184A72700B13252 /* Offers */ = {
 			isa = PBXGroup;
 			children = (
-				D3C8564F2184A73700B13252 /* OffersListViewController.swift */,
+				D3C856772185643F00B13252 /* Shared */,
+				D3C8566E218550EC00B13252 /* Detail */,
+				D3C85659218526E600B13252 /* OfferCollectionViewCell.swift */,
+				D3C8565321851ECF00B13252 /* OfferListPresenter.swift */,
+				D3C8565121851EA600B13252 /* OfferListViewable.swift */,
+				D3C8564F2184A73700B13252 /* OfferListViewController.swift */,
+				D3C8565521851F7C00B13252 /* OfferListViewModel.swift */,
 			);
 			path = Offers;
+			sourceTree = "<group>";
+		};
+		D3C8565C21852A4300B13252 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D3C856632185325400B13252 /* ApplicationColor.swift */,
+				D3C8567521855C2800B13252 /* ApplicationFont.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D3C8566B21854CB900B13252 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8565D21852A5000B13252 /* AsyncImageView.swift */,
+				D3C8566C21854CC400B13252 /* ToggleButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D3C8566E218550EC00B13252 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D3C8566F218550FA00B13252 /* OfferDetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		D3C856772185643F00B13252 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D3C856712185519E00B13252 /* OfferListCoordinator.swift */,
+				D3C8565F21852FAC00B13252 /* OfferStyle.swift */,
+				D3C8565721851F8800B13252 /* OfferViewModel.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +364,7 @@
 				D3C855FA2184A05C00B13252 /* Frameworks */,
 				D3C855FB2184A05C00B13252 /* Resources */,
 				8842FFB671214511B0977DD9 /* [CP] Embed Pods Frameworks */,
+				D3C85665218540A900B13252 /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -397,6 +467,7 @@
 				D3C856352184A12300B13252 /* README.md in Resources */,
 				D3C856082184A05E00B13252 /* Assets.xcassets in Resources */,
 				D3C8562F2184A0F700B13252 /* Podfile in Resources */,
+				D3C85662218531F600B13252 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +533,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ProgrammaticListDetailExercise/Pods-ProgrammaticListDetailExercise-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
@@ -469,6 +541,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
@@ -476,6 +549,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProgrammaticListDetailExercise/Pods-ProgrammaticListDetailExercise-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D3C85665218540A900B13252 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
 		};
 		F15CE2D26337CD65735F3B3F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -503,14 +594,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3C856482184A46B00B13252 /* Offer.swift in Sources */,
+				D3C8565621851F7C00B13252 /* OfferListViewModel.swift in Sources */,
+				D3C8566D21854CC400B13252 /* ToggleButton.swift in Sources */,
 				D3C856402184A39700B13252 /* OffersEndpoint.swift in Sources */,
+				D3C8565421851ECF00B13252 /* OfferListPresenter.swift in Sources */,
 				D3C856422184A3C300B13252 /* OffersRepository.swift in Sources */,
 				D3C8564B2184A5BE00B13252 /* AppCoordinator.swift in Sources */,
 				D3C856012184A05C00B13252 /* AppDelegate.swift in Sources */,
+				D3C856642185325400B13252 /* ApplicationColor.swift in Sources */,
+				D3C8566021852FAC00B13252 /* OfferStyle.swift in Sources */,
+				D3C8565821851F8800B13252 /* OfferViewModel.swift in Sources */,
+				D3C8565E21852A5000B13252 /* AsyncImageView.swift in Sources */,
 				D3C856442184A3CA00B13252 /* OffersService.swift in Sources */,
-				D3C856502184A73700B13252 /* OffersListViewController.swift in Sources */,
+				D3C8566721854AF400B13252 /* UserDefaultsRepository.swift in Sources */,
+				D3C85670218550FA00B13252 /* OfferDetailViewController.swift in Sources */,
+				D3C856502184A73700B13252 /* OfferListViewController.swift in Sources */,
+				D3C856722185519E00B13252 /* OfferListCoordinator.swift in Sources */,
+				D3C8565221851EA600B13252 /* OfferListViewable.swift in Sources */,
+				D3C8565A218526E600B13252 /* OfferCollectionViewCell.swift in Sources */,
 				D3C8563E2184A37600B13252 /* BaseService.swift in Sources */,
 				D3C8564D2184A60900B13252 /* Coordinator.swift in Sources */,
+				D3C8567621855C2800B13252 /* ApplicationFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +622,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C856162184A05E00B13252 /* ProgrammaticListDetailExerciseTests.swift in Sources */,
+				D3C8567B2186036300B13252 /* OfferListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,7 +630,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C856212184A05E00B13252 /* ProgrammaticListDetailExerciseUITests.swift in Sources */,
+				D3C856212184A05E00B13252 /* OfferListDetailUITests.swift in Sources */,
+				D3C856792185F0D200B13252 /* XCUIApplicationExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,7 +6,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var coordinator: AppCoordinator?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+        resetStateIfUITesting()
 
         createWindow()
 
@@ -20,5 +23,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // App Coordinator takes control of app navigation
         coordinator?.start()
     }
-}
 
+    // Clear user defaults when ui-testing
+    private func resetStateIfUITesting() {
+        if ProcessInfo.processInfo.arguments.contains("UI-Testing"), let bundleId = Bundle.main.bundleIdentifier {
+            UserDefaults.standard.removePersistentDomain(forName: bundleId)
+        }
+    }
+}

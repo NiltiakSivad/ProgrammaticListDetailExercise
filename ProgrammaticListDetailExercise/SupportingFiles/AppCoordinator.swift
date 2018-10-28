@@ -2,19 +2,20 @@ import Foundation
 import UIKit
 
 class AppCoordinator: Coordinator {
-    var childCoordinators = [Coordinator]()
-
     var navigationController = UINavigationController()
+
+    var offerListCoordinator: OfferListCoordinator
 
     private let window: UIWindow
 
     init(window: UIWindow) {
         self.window = window
+        offerListCoordinator = OfferListCoordinator(navigationController: navigationController)
     }
 
     func start() {
-        navigationController.pushViewController(OffersListViewController(), animated: false)
         window.rootViewController = navigationController
+        offerListCoordinator.start()
         window.makeKeyAndVisible()
     }
 }

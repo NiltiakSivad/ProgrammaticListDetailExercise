@@ -6,6 +6,7 @@ target 'ProgrammaticListDetailExercise' do
 
     # Pods for ProgrammaticListDetailExercise
     pod 'Moya/RxSwift', '11.0.2'
+    pod 'Nuke', '7.3.2'
     pod 'SwiftLint', '0.27.0'
 
     target 'ProgrammaticListDetailExerciseTests' do

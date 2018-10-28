@@ -4,9 +4,9 @@ import RxSwift
 class OffersRepository {
     let offersService = OffersService()
 
-    func getOffers() -> Observable<[Offer]> {
+    func getOffers() -> Observable<OfferListViewModel> {
         return offersService.get().map { offers in
-            return offers
+            return OfferListViewModel(offers: offers)
         }
     }
 }
